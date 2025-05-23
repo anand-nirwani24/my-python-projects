@@ -3,12 +3,12 @@ from setuptools import setup, find_packages
 setup(
     name='my-python-project',
     version='0.1.0',
-    author='Your Name',
+    author='Anand Nirwani',
     author_email='anand.nirwani@ltimindtree.com',
     description='Python code for practice problems',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/anand-nirwani21/my-python-project',
+    url='https://github.com/anand-nirwani24/my-python-project',
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
     install_requires=[
