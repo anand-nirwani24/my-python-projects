@@ -16,8 +16,8 @@ def main():
         print(f"Power (num1^num2): {calc.power(num1, num2)}")
         print(f"Square root of first number: {calc.square_root(num1)}")
         print(f"Square root of second number: {calc.square_root(num2)}")
-        # print(f"factorial of num1: {calc.factorial(num1)}")
-        # print(f"factorial of num2: {calc.factorial(num2)}")
+        print(f"factorial of num1: {calc.factorial(num1)}")
+        print(f"factorial of num2: {calc.factorial(num2)}")
     except ValueError:
         print("Invalid input. Please enter numeric values.")
 
